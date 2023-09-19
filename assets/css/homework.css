@@ -1,0 +1,23 @@
+.drag-elem {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: orange;
+}
+
+#drop-elem {
+  width: 600px;
+  height: 500px;
+  background-color: magenta;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drag-elems {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
